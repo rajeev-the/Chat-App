@@ -1,0 +1,91 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.main3{
+
+    width: 70%;
+    height: 70%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: rgba(127, 123, 123, 0.611);
+    padding: 30px;
+    border-radius: 20px;
+
+ 
+}
+.main3 form {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main2{
+
+
+    width: 500px;
+    height: 500px;
+    background-color: rgb(9, 9, 9);
+    border-radius: 20px;
+    display: flex;
+flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+
+}
+
+.input{
+
+    width: 80%;
+    height: 10%;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+}
+
+.btn{
+
+ height: 15%;
+ width: 35%;
+ border-radius: 10px;
+ font-size: medium;
+}
+
+.btn:hover{
+    background: lightgreen;
+}
+
+
+.main3 img {
+
+    width: 32px;
+    height: 30px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
